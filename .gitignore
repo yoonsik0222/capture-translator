@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# 비밀 값
+.env
+
+# PyInstaller 빌드 결과물
+build/
+dist/
+*.spec
+!legacy/test.spec
+
+# 개인 캡처 / 실행 중 생성되는 파일
+captures/
+captured screenshot/
+DO_NOT_TOUCH_THIS_IMAGE.png
+
+# 타사 로고 (Google 번역 아이콘) - 공개 저장소에 포함하지 않음
+legacy/asdf.png
+
+# IDE
+.vscode/
+.idea/
